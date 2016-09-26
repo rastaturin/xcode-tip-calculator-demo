@@ -14,6 +14,7 @@
 		8A18FC3F1D98E2E40003C507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A18FC3D1D98E2E40003C507 /* LaunchScreen.storyboard */; };
 		8A18FC4A1D98E2E40003C507 /* SImpleTipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A18FC491D98E2E40003C507 /* SImpleTipperTests.swift */; };
 		8A18FC551D98E2E40003C507 /* SImpleTipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A18FC541D98E2E40003C507 /* SImpleTipperUITests.swift */; };
+		8A18FC691D9997660003C507 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A18FC681D9997660003C507 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8A18FC501D98E2E40003C507 /* SImpleTipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SImpleTipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A18FC541D98E2E40003C507 /* SImpleTipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SImpleTipperUITests.swift; sourceTree = "<group>"; };
 		8A18FC561D98E2E40003C507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A18FC681D9997660003C507 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				8A18FC341D98E2E40003C507 /* AppDelegate.swift */,
 				8A18FC361D98E2E40003C507 /* ViewController.swift */,
 				8A18FC381D98E2E40003C507 /* Main.storyboard */,
+				8A18FC681D9997660003C507 /* SettingsViewController.swift */,
 				8A18FC3B1D98E2E40003C507 /* Assets.xcassets */,
 				8A18FC3D1D98E2E40003C507 /* LaunchScreen.storyboard */,
 				8A18FC401D98E2E40003C507 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				8A18FC371D98E2E40003C507 /* ViewController.swift in Sources */,
 				8A18FC351D98E2E40003C507 /* AppDelegate.swift in Sources */,
+				8A18FC691D9997660003C507 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
