@@ -1,6 +1,6 @@
-# Pre-work - *Name of App Here*
+# Pre-work - *Simple Tipper*
 
-**Name of your app** is a tip calculator application for iOS.
+**Simple Tipper** is a tip calculator application for iOS.
 
 Submitted by: **Alexey Rastaturin**
 
@@ -27,12 +27,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/a/EB1FO' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/gWdUW01.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
+Additional features are coming soon!
 
 ## License
 

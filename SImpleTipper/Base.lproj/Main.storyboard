@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tip Calculator-->
+        <!--Simple Tipper-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SImpleTipper" customModuleProvider="target" sceneMemberID="viewController">
@@ -83,7 +83,7 @@
                             <outletCollection property="gestureRecognizers" destination="3v6-PS-iiw" appends="YES" id="cse-jt-vvv"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Tip Calculator" id="3Uq-Da-73f">
+                    <navigationItem key="navigationItem" title="Simple Tipper" id="3Uq-Da-73f">
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="n8j-CH-h2D">
                             <connections>
                                 <segue destination="TJl-YW-veA" kind="push" id="Zgh-Ly-SKi"/>
