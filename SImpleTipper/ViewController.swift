@@ -18,8 +18,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        billField.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,7 +26,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func dataChanged(_ sender: AnyObject) {
-        
         updateData()
     }
 
@@ -36,6 +33,17 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        billField.becomeFirstResponder()
+        
+        let defaults = UserDefaults.standard
+        precentageSelector.selectedSegmentIndex = defaults.integer(forKey: "default_tip")
+        
+        updateData()
+    }
+
     func updateData()
     {
         let tipPercentage = [0.18, 0.20, 0.25];
@@ -46,16 +54,6 @@ class ViewController: UIViewController {
         
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
-        let defaults = UserDefaults.standard
-        precentageSelector.selectedSegmentIndex = defaults.integer(forKey: "default_tip")
-        
-        updateData()
-        
     }
     
 }
